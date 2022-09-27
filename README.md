@@ -1,1 +1,7 @@
-# primeiroi_3t
+Terceiro Trimestre
+
+## Identificação
+Guilherme Ferreira Moreas - Nr . 33
+
+##Conteudo
+HTML, CSS, JavaScript
