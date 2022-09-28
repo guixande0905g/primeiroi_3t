@@ -1,7 +1,7 @@
-## Terceiro Trimestre
+# Terceiro Trimestre
 
 ## Identificação
-Guilherme Ferreira Moreas - Nr . 33
+Jesus de Maringá - Nr. 50
 
-## Conteudo
-HTML, CSS, JavaScript
+## Conteúdo
+HTML, CSS, javaScript
