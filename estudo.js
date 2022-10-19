@@ -37,17 +37,13 @@ function quadrado(){
 function total(){
     let val = document.getElementById("valor").value;
     let ju = document.getElementById("juros").value;
-}
-    if(!Number(val)){
-        alert("O valor deve ser um número")
-        document.getElementById("valor").value = "";
-        document.getElementById("valor").focus();
-        return
+    
+    let t = document.getElementById("meses").value;
+    let resultado = 0;
+    for(let m = 1; m < t; m++){
+        resultado = (val * ((ju/100)+1));
+        val = resultado;
+        document.write("Mês " + m + " valor de " + val + "<br>");
     }
-
-if(!Number(ju)){
-        alert("O valor do juro deve ser um número")
-        document.getElementById("juros").value = "";
-        document.getElementById("juros").focus();
-        return
+    document.write("O total é de: " + resultado);
 }
