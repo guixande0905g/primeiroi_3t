@@ -1,7 +1,7 @@
-# Terceiro Trimestre
+# terceiro trimestre
 
 ## Identificação
-Guilherme Ferreira Moraes - Nr. 33
+Maria Gabriela - Nr.17
 
-## Conteúdo
-HTML, CSS, javaScript
+## conteúdo
+HTML,CSS,JavaScript
