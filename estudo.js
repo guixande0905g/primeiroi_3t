@@ -43,14 +43,34 @@ function total(){
     let t = document.getElementById("meses").value;
     let resultado = 0;
     let saida = "";
-    for(let m = 1; m <= t; m++) {
+    for(let m = 1; m <= t; m++){
         resultado = (val * ((ju/100)+1));
         val = resultado;
-         saida += "Mes " + m + ": " + moeda(val) + "<br>";
-       // document.write("Mês " + m + " valor de " + moeda(val) + "<br>");
-
+        saida += "Mês " + m + ": " + moeda(val) + "<br>";
+        // document.write("Mês " + m + " valor de " + moeda(val) + "<br>");
     }
     document.getElementById("mes").innerHTML = saida;
     document.getElementById("resultado").innerHTML = "Total: " + moeda(resultado);
-    //document.write("O total é de: " + moeda(resultado) );
+    // docudment.write("O total é de: " + moeda(resultado) );
 }
+function petista(){
+
+let a = 1;
+let b = -1;
+let c = -12;
+let delta = (b*b) -4*a*c;
+if(delta < 0){
+    console.log("Não tem raíz real");
+}
+if(delta == 0){
+    let x1 = (-b)/(2*a);
+    let x2 = x1;
+    console.log("x1 = x2 = " + x1);
+}
+if(delta > 0){
+    let x1 = ((-b) + Math.sqrt(delta))/(2*a);
+    let x2 = ((-b) - Math.sqrt(delta))/(2*a);
+    console.log("x1 = " + x1 + " x2 = " + x2);
+}
+}
+petista();

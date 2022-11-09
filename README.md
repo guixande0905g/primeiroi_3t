@@ -1,7 +1,7 @@
-# terceiro trimestre
+# Terceiro Trimestre
 
 ## Identificação
-Maria Gabriela - Nr.17
+Ana Julia dos Santos - Nr. 41
 
-## conteúdo
-HTML,CSS,JavaScript
+## Conteúdo
+HTML,CSS, javaScript
